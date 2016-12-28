@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <org.oscim.android.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.github.sarweshkumar47.placesautocompleteview.PlacesAutoCompleteView
+        android:id="@+id/searchLayer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_searchbar_layer"
+        android:dropDownVerticalOffset="4dp"
+        android:elevation="2dp"
+        android:hint="@string/places_search"
+        android:inputType="textNoSuggestions"
+        android:padding="12dp"
+        android:textSize="14sp"
+        custom:autoTextDelay="300"
+        custom:autoTextThreshold="3"
+        custom:geocoding_api_key="3eb50a2c06c9dedbee3a"
+        custom:language="en-US"
+        custom:textSuggestSingleLineEnabled="true"
+        custom:textSuggestViewFontColor="@color/teal900"
+        custom:textSuggestViewTextSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/myLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp"
+        android:alpha="0.9"
+        android:background="#F5F5F5"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_gps_fixed_black_24dp"
+        android:contentDescription="@string/clear_button" />
+
+</RelativeLayout>

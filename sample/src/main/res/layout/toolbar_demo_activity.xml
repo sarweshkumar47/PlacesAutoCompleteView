@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_search"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+
+
+    <com.github.sarweshkumar47.placesautocompleteview.PlacesAutoCompleteView
+        android:id="@+id/toolbarPlacesSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:dropDownVerticalOffset="6dp"
+        android:hint="@string/places_search"
+        android:inputType="textNoSuggestions"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        custom:autoTextDelay="300"
+        custom:autoTextThreshold="3"
+        custom:clearButtonDrawable="@drawable/ic_close_white_24dp"
+        custom:geocoding_api_key="3eb50a2c06c9dedbee3a"
+        custom:language="en-US"
+        custom:textSuggestSingleLineEnabled="true"
+        custom:textSuggestViewFontColor="@color/deepOrange900"
+        custom:textSuggestViewTextSize="16sp" />
+
+</android.support.v7.widget.Toolbar>

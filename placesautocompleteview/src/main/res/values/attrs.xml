@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlacesAutoCompleteView">
+        <attr name="language" format="string" />
+        <attr name="geocoding_api_key" format="string" />
+        <attr name="autoTextThreshold" format="integer" />
+        <attr name="autoTextDelay" format="integer" />
+        <attr name="textSuggestViewTextSize" format="dimension" />
+        <attr name="textSuggestSingleLineEnabled" format="boolean" />
+        <attr name="textSuggestViewFontColor" format="color" />
+        <attr name="textSuggestViewBackground" format="color" />
+        <attr name="clearButtonDrawable" format="integer" />
+    </declare-styleable>
+</resources>

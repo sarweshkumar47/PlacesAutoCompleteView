@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PlacesAutoCompleteView</string>
+    <string name="places_search">Places search...</string>
+    <string name="demo">Demo</string>
+    <string name="mapdemo">MapDemo</string>
+    <string name="toolbardemo">ToolbarDemo</string>
+    <string name="clear_button">clear button</string>
+</resources>
