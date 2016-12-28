@@ -9,18 +9,20 @@ An AutocompleteTextView that interacts with the _Geocoding API_ of [LocationIQ.o
 
 # Setup
 ## Gradle
-Add the following to your project's build.gradle:
-
-    repositories {
-        maven { url 'http://dl.bintray.com/sarweshkumar/Maven' }
-    }
-    
-Add the following to your module's build.gradle:
 
     dependencies {
         compile "com.github.sarweshkumar47:placesautocompleteview:1.0.0"
     }
   
+## Maven
+
+       <dependency>
+        <groupId>com.github.sarweshkumar47</groupId>
+        <artifactId>placesautocompleteview</artifactId>
+        <version>1.0.0</version>
+        <type>pom</type>
+        </dependency>
+        
 # Usage
 * You'll need a developer token to access the services of LocationIQ.org. Get the token [here](http://locationiq.org/#register)
 * You must include the following permission in your AndroidManifest.xml, for the View to interact with the Geocoding API
