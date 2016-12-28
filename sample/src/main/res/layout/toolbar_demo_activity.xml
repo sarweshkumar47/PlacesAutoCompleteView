@@ -23,7 +23,7 @@
         custom:autoTextDelay="300"
         custom:autoTextThreshold="3"
         custom:clearButtonDrawable="@drawable/ic_close_white_24dp"
-        custom:geocoding_api_key="3eb50a2c06c9dedbee3a"
+        custom:geocoding_api_key="<LOCATIONIQ_API_KEY>"
         custom:language="en-US"
         custom:textSuggestSingleLineEnabled="true"
         custom:textSuggestViewFontColor="@color/deepOrange900"
